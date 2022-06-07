@@ -9,13 +9,22 @@
     <title>To Do App</title>
 </head>
 <body>
-    <main role="main" id="main" class="bg-warning">
+    <main role="main" id="main" class="container">
         <h1>To Do App</h1>
-        <section id="priority">
-            <h2></h2>
-            <article>
-
-            </article>
+        <section id="priority" class="px-2 border rounded">
+            <h2>High priority tasks</h2>
+            <section class="tasks">
+                <article class="p-2 d-flex flex-row bg-warning">
+                    <div class="form-check d-flex align-items-center m-4">
+                        <input class="form-check-input" type="checkbox" value="" id="event-000">
+                    </div>
+                    <div class="align-items-center">
+                        <h3>Bro's Birthday</h3>
+                        <p>Buy a gift, if possible a leather jacket.</p>
+                        <p>Date: <time datetime="2022-07-06">July 6</time> [All-Day]</p>
+                    </div>
+                </article>
+            </section>
         </section>
     </main>
     <script src="./js/bootstrap.bundle.min.js" defer></script>
