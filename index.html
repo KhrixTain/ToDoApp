@@ -11,7 +11,7 @@
 <body>
     <main role="main" id="main" class="container">
         <h1>To Do App</h1>
-        <section id="priority" class="px-2 border rounded">
+        <section id="priority" class="p-3 border rounded">
             <h2>High priority tasks</h2>
             <section class="tasks">
                 <article class="p-2 d-flex flex-row bg-warning">
@@ -31,17 +31,47 @@
                 </article>
             </section>
         </section>
-        <section id="future" class="mt-5 px-2 border rounded">
+        <section id="future" class="mt-5 p-3 border rounded">
             <h2>Future tasks</h2>
             <section class="tasks">
-                <article class="p-2 d-flex flex-row bg-success">
+                <article class="p-2 mb-2 d-flex flex-row bg-success">
+                    <div class="form-check d-flex align-items-center m-4">
+                        <input class="form-check-input" type="checkbox" value="" id="event-000">
+                    </div>
+                    <div class="align-items-center">
+                        <h3>My Birthday</h3>
+                        <p>Shutdown alarms, time to sleep.</p>
+                        <p>Date: <time datetime="2022-09-21">September 21</time> [All-Day]</p>
+                    </div>
+                    <div class="d-flex align-items-center m-4">
+                        <button type="button" class="close" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                    </div>
+                </article>
+                <article class="p-2 mb-2 d-flex flex-row bg-success">
                     <div class="form-check d-flex align-items-center m-4">
                         <input class="form-check-input" type="checkbox" value="" id="event-000">
                     </div>
                     <div class="align-items-center">
                         <h3>Halloween's Party</h3>
-                        <p>Buy a scary costume of a zombie shark..</p>
+                        <p>Buy a scary costume of a zombie shark.</p>
                         <p>Date: <time datetime="2022-10-30">October 30</time> At <time datetime="22:00">22:00</time></p>
+                    </div>
+                    <div class="d-flex align-items-center m-4">
+                        <button type="button" class="close" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                    </div>
+                </article>
+                <article class="p-2 mb-2 d-flex flex-row bg-success">
+                    <div class="form-check d-flex align-items-center m-4">
+                        <input class="form-check-input" type="checkbox" value="" id="event-000">
+                    </div>
+                    <div class="align-items-center">
+                        <h3>X-Mas Dinner</h3>
+                        <p>Not wear a belt.</p>
+                        <p>Date: <time datetime="2022-12-24">December 24</time> at <time datetime="22:00">22:00</time> and ends <time datetime="2022-12-25">December 25</time></p>
                     </div>
                     <div class="d-flex align-items-center m-4">
                         <button type="button" class="close" aria-label="Close">
