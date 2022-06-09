@@ -1,3 +1,15 @@
 [
-    
+    {
+        "_id": "xyz001",
+        "name": "My Birthday",
+        "description": "Shutdown alarms, time to sleep.",
+        "category": ["family_ID", "personal_ID"],
+        "date": "2022-09-21",
+        "time": null,
+        "dateEnds": null,
+        "timeEnds": null,
+        "created_at": "2022-04-23T18:25:43.511Z",
+        "modify_at": "2022-04-23T18:25:43.511Z",
+        "priority": true
+    }
 ]
