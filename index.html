@@ -24,19 +24,58 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form id="addNewEventForm">
-                        <div class="mb-3">
-                          <label for="exampleInputEmail1" class="form-label">Email address</label>
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    <form id="addNewEventForm" class="container">
+                        <div class="mb-3 row">
+                          <label for="inputNameEvent" class="form-label">Name</label>
+                          <input type="text" class="form-control" id="inputNameEvent" >
                         </div>
-                        <div class="mb-3">
-                          <label for="exampleInputPassword1" class="form-label">Password</label>
-                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        <div class="mb-3 row">
+                          <label for="inputDescriptionEvent" class="form-label">Description</label>
+                          <input type="text" class="form-control" id="inputDescriptionEvent">
                         </div>
-                        <div class="mb-3 form-check">
-                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        <div class="mb-3 row">
+                            <label for="inputCategoriesEvent" class="form-label">Categories</label>
+                            <select class="form-select" id="inputCategoriesEvent" size="3" aria-label="size 3 select example">
+                                <option selected disabled hidden>Categories</option>
+                                <option value="personal">Personal</option>
+                                <option value="study">School</option>
+                                <option value="friends">Friends</option>
+                                <option value="job">Job</option>
+                                <option value="family">Family</option>
+                                <option value="home">Home</option>
+                              </select>
+                        </div>
+                        <div class="mb-3 row justify-content-between">
+                            <div class="col-3">
+                                <label for="inputDateStartEvent" class="form-label">Date</label>
+                                <input type="date" class="form-control" id="inputDateStartEvent">
+                            </div>
+                            <div class="col-3">
+                                <label for="inputTimeStartEvent" class="form-label">Time</label>
+                                <input type="time" class="form-control" id="inputTimeStartEvent">
+                            </div>
+                            <div class="col">
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" id="switchStartDateAllDay">
+                                    <label class="form-check-label" for="switchStartDateAllDay">All-Day</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-3 row justify-content-between">
+                            <div class="col-3">
+                                <label for="inputDateEndEvent" class="form-label">End's Date</label>
+                                <input type="date" class="form-control" id="inputDateEndEvent">
+                            </div>
+                            <div class="col-3">
+                                <label for="inputTimeEndEvent" class="form-label">End's Time</label>
+                                <input type="time" class="form-control" id="inputTimeEndEvent">
+                            </div>
+                            <div class="col">
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" id="inputTimeEndEvent">
+                                    <label class="form-check-label" for="switchEndDateAllDay">All-Day</label>
+                                </div>
+                            </div>
                         </div>
                       </form>
                 </div>
